@@ -22,8 +22,8 @@ def bonus
 
   #code your solution here:
   def update 
-    [:montague][:hero][:status] = "dead"
-    [:capulet][:heroine][:status] = "dead"
+    bonus[:montague][:hero][:status] = "dead"
+    bonus[:capulet][:heroine][:status] = "dead"
   end
   
 
